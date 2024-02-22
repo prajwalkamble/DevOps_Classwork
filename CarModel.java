@@ -1,5 +1,5 @@
 class CarDetails{
-  String model, color
+  String model, color;
   public CarDetails(String model, String color){
     this.model = model;
     this.color = color;
@@ -30,7 +30,7 @@ public class CarModel {
   public static void main(String[] args) {
     CarDetails car = new CarDetails("","");
     car.setModel("Lamborghini");
-    car.setcolor("White");
+    car.setColor("White");
 
     car.display();    
   }
