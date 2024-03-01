@@ -1,4 +1,4 @@
-class CarDetails{
+class CarDetails
   String model, color;
   public CarDetails(String model, String color){
     this.model = model;
