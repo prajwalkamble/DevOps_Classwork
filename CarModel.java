@@ -29,9 +29,9 @@ class CarDetails{
 public class CarModel {
   public static void main(String[] args) {
     CarDetails car = new CarDetails("","");
-    car.setModel("Lamborghini")
-    car.setColor("White")
+    car.setModel("Lamborghini");
+    car.setColor("White");
 
-    car.display()
+    car.display();
   }
 }
